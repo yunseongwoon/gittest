@@ -1,0 +1,39 @@
+1. git 저장소 만들기 
+ - > git init
+
+2. git 상태 보기
+ - > 다른부분 찾아주기. git status
+
+3. 프로젝트 -> 인덱스 : add  :  git add 파일명
+   인덱스 -> 저장소 : commit 
+
+4. 유저등록
+ - github.com 가입
+ - github 유저 정보 등록
+	- git config --local user.name "github닉네임" yunseongwoon
+	- git config --local user.email "github이메일" seongun7491@hanmail.net
+
+5. 깃 저장소에 커밋
+ - git commit -m "작업 메시지"
+
+6. 깃 원격 저장소 발급
+ -깃허브 레파지토리 (your repository) 만들고 주소를 복사
+https://github.com/yunseongwoon/gittest.git
+
+7. github.com 에서 access token 발급 받기
+ 마이메뉴 - settings - developer settings - personal access tokens
+- generate new token - repo 체크 - generate token - token값 저장
+
+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 << 복사해온 토큰
+
+8. 원격저장소에 소스코드 밀어넣기
+ - git push 원격저장소주소 master
+붙여넣기 : 쉬프트 인서트
+
+9. 토큰 눌러서 토큰입력
+
+10 . 원격저장소의 소스코드 가져오기
+- 프로젝트 폴더 만들고
+- git init 으로 git 저장소 만들고
+- 유저등록 (4번과정)
+- git pull 원격저장소주소 master
